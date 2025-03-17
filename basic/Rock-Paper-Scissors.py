@@ -19,3 +19,5 @@ elif choice == "Scissors" or "scissors" and comp == 2:
   print("Paper! You win!")
 elif choice == "Scissors" or "scissors" and comp == 3:
   print("Scissors! Go again!")
+#Is it trying to run different values of the comp variable?
+#Edit to make sure it only produces one output
