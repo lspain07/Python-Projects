@@ -1,5 +1,5 @@
 def game():
-    import random #imports the random module's functions into the file
+    import random
     guess = int(input("Guess a number from 1 to 10: "))
     answer = random.randint(1,10)
     if guess == answer:
