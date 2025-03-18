@@ -10,6 +10,6 @@ def game():
         print("You got it wrong! The answer was " + str(answer) + "!")
 while True:
     game()
-    query = input("Try again? (y/n): ")
+    query = input("Keep going? (y/n): ")
     if query.lower() != "y":
         break
