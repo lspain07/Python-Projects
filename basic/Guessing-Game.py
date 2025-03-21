@@ -17,7 +17,10 @@ def game():
         except KeyboardInterrupt:
             print("Invalid input. Please enter a whole number.")
 while True:
-    game()
-    query = input("Keep going? (y/n): ")
-    if query.lower() != "y":
-        break
+    try:
+        game()
+        query = input("Keep going? (y/n): ")
+        if query.lower() != "y":
+            break
+    except KeyboardInterrupt:
+            break
