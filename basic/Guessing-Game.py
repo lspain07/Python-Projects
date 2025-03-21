@@ -13,7 +13,9 @@ def game():
                 print("You got it wrong! The answer was " + str(answer) + "!")
                 break
         except ValueError:
-            print("Invalid input. Please enter a number.")
+            print("Invalid input. Please enter a whole number.")
+        except KeyboardInterrupt:
+            print("Invalid input. Please enter a whole number.")
 while True:
     game()
     query = input("Keep going? (y/n): ")
